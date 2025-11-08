@@ -22,11 +22,11 @@ th, td {
   text-align: left;
 }
 
-th {
+/* th {
   background-color: skyblue;
   color: white;
   text-transform: uppercase;
-}
+} */
 
 tr:hover {
   background-color: #f1f1f1;
@@ -46,4 +46,18 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+
+.table_title{
+  background-color: blue;
+  color: #fff;
+
+}
+
+::selection {
+  background: lightblue; /* green highlight */
+  color: blue;
+  font-weight: bold;
+  font-size: 1.2em;
 }
