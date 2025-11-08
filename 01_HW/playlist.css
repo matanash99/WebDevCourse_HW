@@ -56,8 +56,12 @@ a:hover {
 }
 
 ::selection {
-  background: lightblue; /* green highlight */
+  background: lightblue;
   color: blue;
   font-weight: bold;
   font-size: 1.2em;
+}
+
+.song_link:hover {
+  color: lightblue;
 }
