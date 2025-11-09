@@ -1,0 +1,78 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+/* Table styling */
+.audio-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Table headers */
+.audio-table th {
+  padding: 12px;
+  text-align: center;
+  background-color: #b2fab4; /* light green header */
+  color: #000;
+  font-weight: bold;
+  border: 1px solid #a0d6a0;
+}
+
+/* Table cells */
+.audio-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Alternating row colors */
+.audio-table .row1 {
+  background-color: #e6f9e6; /* light green shade */
+}
+
+.audio-table .row2 {
+  background-color: #f0fff0; /* lighter green shade */
+}
+
+/* Hover effect */
+.audio-table tr:hover {
+  background-color: #d0f0d0;
+}
+
+/* Cover image */
+img.cover {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Audio player */
+audio {
+  width: 150px;
+}
+
+/* Download link */
+a.download-link {
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+a.download-link:hover {
+  color: #388E3C;
+}
