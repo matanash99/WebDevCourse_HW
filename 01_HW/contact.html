@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact_style.css">
+</head>
+<body>
+
+  <h1>Contact</h1>
+
+  <div class="contact-container">
+    <h2 class="send-box">Send a Message</h2>
+
+    <table class="contact-table">
+      <tr>
+        <td class="label-box">Name:</td>
+        <td class="input-box"><input type="text" id="name" name="name"></td>
+      </tr>
+      <tr>
+        <td class="label-box">Email:</td>
+        <td class="input-box"><input type="email" id="email" name="email"></td>
+      </tr>
+      <tr>
+        <td class="label-box">Phone:</td>
+        <td class="input-box"><input type="tel" id="phone" name="phone"></td>
+      </tr>
+      <tr>
+        <td class="label-box">Subject:</td>
+        <td class="input-box"><input type="text" id="subject" name="subject"></td>
+      </tr>
+      <tr>
+        <td class="label-box">Message:</td>
+        <td class="input-box"><textarea id="message" name="message" rows="4"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="button-row">
+          <button type="button" onclick="sendMessage()">Send Message</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="contact_script.js"></script>
+</body>
+</html>
